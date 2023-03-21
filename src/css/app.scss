@@ -1,1 +1,53 @@
 // app global css in SCSS form
+// app global css in SCSS form
+body{
+  // background-image: linear-gradient(to right, #53c5db,#980de8 , #f7f7f4,);
+  background-color: #f7f7f4;
+  height: 90vh;
+}
+
+.header{
+  background-color: #53c5db;
+  height: 100px;
+  color: black;
+
+  border: 1px solid black;
+}
+.my-card{
+ background-color: #f7f7f4;
+}
+.table-striped{
+
+  width: 100%;
+  text-align: center;
+
+}
+a{
+  color: black;
+}
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+th{
+  background-color: #53c5db;
+  padding-left: 50px;
+}
+.td1{
+  background-color: #e0dac9;
+}
+.td2{
+  background-color: #e0dac9;
+}
+
